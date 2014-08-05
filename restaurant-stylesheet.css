@@ -1,0 +1,88 @@
+/*----- Body-----*/
+body {
+    text-align: center;
+}
+
+/*----- Entire HTML Content -----*/
+
+.wrap {
+    width: 960px; 
+	margin: 0 auto;
+}
+
+/*----- Header -----*/
+.header {
+    font-family: Trebuchet, Tahoma, Arial, sans-serif;
+    color: #996633;
+    margin: 0 0 0 25px;
+}
+
+/*----- Tabs -----*/
+.tabs {
+    width:100%;
+    display:inline-block;
+}
+
+/*----- Tab Links -----*/
+/*----- Clearfix -----*/
+
+.tabLinks:after {
+    display:block;
+    clear:both;
+    content:''; 
+}
+
+.tabLinks {
+    margin: 0 auto;
+}
+
+.tabLinks li {
+    list-style: none;
+    margin: 0px 5px;
+    display: inline;
+}
+
+.tabLinks a {
+    padding: 9px 15px;
+    display: inline-block;
+    border-radius: 3px 3px 0px 0px;
+    background: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    color: #939393;
+    transition: all linear: 0.15s;
+}
+
+.tabLinks a:hover {
+    background: #a7cce5;
+    text-decoration: none;
+}
+
+li.active a, li.active a:hover {
+    background: #d3d3d3;
+    color: #4c4c4c;
+}
+
+/*----- Content of Tabs -----*/
+
+.content {
+    padding: 15px;
+    border-radius: 3px;
+    box-shadow: -1px 1px 1px rgba(0,0,0,0.15);
+    background: #fff;
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
+.roundedImage {
+    border-radius: 10px;
+}
+
+.tabContent {
+    display: none;
+}
+
+.tabContent.active {
+    display: block;
+}
